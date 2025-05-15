@@ -20,18 +20,18 @@ export default defineUniPages({
     spacing: '3px',
     position: 'bottom',
     list: [
-      {
-        pagePath: 'pages/home/index',
-        iconPath: 'static/tabbar/home-off.png',
-        selectedIconPath: 'static/tabbar/home-on.png',
-        text: '首页',
-      },
-      {
-        pagePath: 'pages/mine/index',
-        iconPath: 'static/tabbar/mine-off.png',
-        selectedIconPath: 'static/tabbar/mine-on.png',
-        text: '个人',
-      },
+      // {
+      //   pagePath: 'pages/home/index',
+      //   iconPath: 'static/tabbar/home-off.png',
+      //   selectedIconPath: 'static/tabbar/home-on.png',
+      //   text: '首页',
+      // },
+      // {
+      //   pagePath: 'pages/mine/index',
+      //   iconPath: 'static/tabbar/mine-off.png',
+      //   selectedIconPath: 'static/tabbar/mine-on.png',
+      //   text: '个人',
+      // },
     ],
   },
 

@@ -5,21 +5,20 @@
 
 interface NavigateToOptions {
   url: "/pages/home/index" |
-       "/pages/ai/deepseek" |
-       "/pages/ai/index" |
        "/pages/auth/index" |
        "/pages/mine/index" |
        "/feature/pages/list-data-preview/detail" |
        "/feature/pages/list-data-preview/index" |
        "/feature/pages/sub-test/index" |
        "/feature/pages/test/index" |
+       "/feature/pages/video-operate/index" |
        "/feature/pages/yaml/index" |
        "/feature/pages/sub-test/component/dialog";
 }
 interface RedirectToOptions extends NavigateToOptions {}
 
 interface SwitchTabOptions {
-  url: "/pages/home/index" | "/pages/mine/index"
+  
 }
 
 type ReLaunchOptions = NavigateToOptions | SwitchTabOptions;

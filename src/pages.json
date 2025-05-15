@@ -15,20 +15,7 @@
     "iconWidth": "24px",
     "spacing": "3px",
     "position": "bottom",
-    "list": [
-      {
-        "pagePath": "pages/home/index",
-        "iconPath": "static/tabbar/home-off.png",
-        "selectedIconPath": "static/tabbar/home-on.png",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/mine/index",
-        "iconPath": "static/tabbar/mine-off.png",
-        "selectedIconPath": "static/tabbar/mine-on.png",
-        "text": "个人"
-      }
-    ]
+    "list": []
   },
   "easycom": {
     "autoscan": true,
@@ -41,18 +28,7 @@
       "path": "pages/home/index",
       "type": "home",
       "style": {
-        "navigationBarTitleText": "柯臣"
-      }
-    },
-    {
-      "path": "pages/ai/deepseek",
-      "type": "page"
-    },
-    {
-      "path": "pages/ai/index",
-      "type": "page",
-      "style": {
-        "navigationBarTitleText": "AI对话"
+        "navigationBarTitleText": "视频播放"
       }
     },
     {
@@ -101,6 +77,13 @@
           "type": "page",
           "style": {
             "navigationBarTitleText": "报告查看"
+          }
+        },
+        {
+          "path": "video-operate/index",
+          "type": "page",
+          "style": {
+            "navigationBarTitleText": "视频播放"
           }
         },
         {
